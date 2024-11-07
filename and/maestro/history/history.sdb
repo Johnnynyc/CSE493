@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<setupdb version="7">history
+	<active>Active Setup</active>
+	<history>History
+		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
+			<timestamp>Nov 5 19:36:56 2024</timestamp>
+			<uuid>{f52e6d78-3e2b-4b0c-9922-1580f5d09574}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/eng/home/njfox4/cse493_593/CSE493/project/and/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/eng/home/njfox4/cse493_593/CSE493/project/and/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/eng/home/njfox4/cse493_593/simulations/Project/and/maestro/results/maestro/ExplorerRun.0</psfdir>
+			<simdir>/eng/home/njfox4/cse493_593/simulations/Project/and/maestro/results/maestro/ExplorerRun.0</simdir>
+		</historyentry>
+	</history>
+</setupdb>
