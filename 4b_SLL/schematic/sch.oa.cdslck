@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      jiehanke
+HostName                       thunder.sens.buffalo.edu
+ProcessIdentifier              668842
+ProcessCreationTime_UTC        1731105182
+ProcessCreationTime_Readable   Fri Nov  8 17:33:02 2024 EST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /shared/projects/CSE493/team-h/project/4b_SLL/schematic/sch.oa.cdslck
+TimeEditLocked                 Fri Nov  8 17:56:17 2024 EST
