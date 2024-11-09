@@ -8,11 +8,11 @@
 		<sharedvarinfo></sharedvarinfo>
 		<overwritehistory>0</overwritehistory>
 		<tests>
-			<test>CSE493_and_1
+			<test>CSE493_4b_SLL__1
 				<tool>ADE</tool>
 				<tooloptions>
 					<option>cell
-						<value>and</value>
+						<value>4b_SLL_</value>
 					</option>
 					<option>lib
 						<value>CSE493</value>
@@ -31,13 +31,31 @@
 					</option>
 				</tooloptions>
 				<outputs>
-					<output>/A
+					<output>/Bit3
 						<evalType>point</evalType>
 					</output>
-					<output>/B
+					<output>/Bit0
 						<evalType>point</evalType>
 					</output>
-					<output>/Out
+					<output>/Bit1
+						<evalType>point</evalType>
+					</output>
+					<output>/Bit2
+						<evalType>point</evalType>
+					</output>
+					<output>/SHIFT
+						<evalType>point</evalType>
+					</output>
+					<output>/Y3
+						<evalType>point</evalType>
+					</output>
+					<output>/Y1
+						<evalType>point</evalType>
+					</output>
+					<output>/Y0
+						<evalType>point</evalType>
+					</output>
+					<output>/Y2
 						<evalType>point</evalType>
 					</output>
 				</outputs>
@@ -52,7 +70,7 @@
 		</extensions>
 		<currentmode>Single Run, Sweeps and Corners</currentmode>
 		<checksasserts netlist="0">
-			<test netlist="0" netlistscope="all">CSE493_and_1</test>
+			<test netlist="0" netlistscope="all">CSE493_4b_SLL__1</test>
 		</checksasserts>
 		<plottingoptions>
 			<plottingoption>waveformtemplate

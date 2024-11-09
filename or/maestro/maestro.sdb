@@ -8,11 +8,11 @@
 		<sharedvarinfo></sharedvarinfo>
 		<overwritehistory>0</overwritehistory>
 		<tests>
-			<test>CSE493_and_1
+			<test>CSE493_or_1
 				<tool>ADE</tool>
 				<tooloptions>
 					<option>cell
-						<value>and</value>
+						<value>or</value>
 					</option>
 					<option>lib
 						<value>CSE493</value>
@@ -31,13 +31,13 @@
 					</option>
 				</tooloptions>
 				<outputs>
-					<output>/A
+					<output>/in_a
 						<evalType>point</evalType>
 					</output>
-					<output>/B
+					<output>/in_b
 						<evalType>point</evalType>
 					</output>
-					<output>/Out
+					<output>/out
 						<evalType>point</evalType>
 					</output>
 				</outputs>
@@ -52,7 +52,7 @@
 		</extensions>
 		<currentmode>Single Run, Sweeps and Corners</currentmode>
 		<checksasserts netlist="0">
-			<test netlist="0" netlistscope="all">CSE493_and_1</test>
+			<test netlist="0" netlistscope="all">CSE493_or_1</test>
 		</checksasserts>
 		<plottingoptions>
 			<plottingoption>waveformtemplate
