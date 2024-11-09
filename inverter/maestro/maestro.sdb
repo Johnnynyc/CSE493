@@ -8,14 +8,14 @@
 		<sharedvarinfo></sharedvarinfo>
 		<overwritehistory>0</overwritehistory>
 		<tests>
-			<test>Lab1_inverter_1
+			<test>lab1_inverter_1
 				<tool>ADE</tool>
 				<tooloptions>
 					<option>cell
 						<value>inverter</value>
 					</option>
 					<option>lib
-						<value>Lab1</value>
+						<value>lab1</value>
 					</option>
 					<option>path
 						<value>$AXL_SETUPDB_DIR</value>
@@ -34,16 +34,18 @@
 					<output>/in
 						<evalType>point</evalType>
 					</output>
+					<output>"/333333333333333333333333333333333333333333"
+						<evalType>point</evalType>
+					</output>
+					<output>"/out"
+						<evalType>point</evalType>
+					</output>
 					<output>/out
 						<evalType>point</evalType>
 					</output>
 				</outputs>
 			</test>
 		</tests>
-		<currentmode>Single Run, Sweeps and Corners</currentmode>
-		<checksasserts netlist="0">
-			<test netlist="0" netlistscope="all">Lab1_inverter_1</test>
-		</checksasserts>
 		<extensions>
 			<extension>Parasitics
 				<callback>_parSetupDBExtensionCB</callback>
@@ -51,6 +53,10 @@
 				<icontype></icontype>
 			</extension>
 		</extensions>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<checksasserts netlist="0">
+			<test netlist="0" netlistscope="all">lab1_inverter_1</test>
+		</checksasserts>
 		<plottingoptions>
 			<plottingoption>waveformtemplate
 				<value>(None)</value>
@@ -82,13 +88,13 @@
 				<value>(None)</value>
 			</exploreroption>
 		</exploreroptions>
+		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
 		<incrementalsimsetup>
 			<useincremental>0</useincremental>
 			<reusenetlist>0</reusenetlist>
 			<reusesaverunhist>0</reusesaverunhist>
 			<copyreferenceresults>1</copyreferenceresults>
 		</incrementalsimsetup>
-		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
 	</active>
 	<history>History
 	</history>
