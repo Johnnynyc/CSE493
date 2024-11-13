@@ -7,7 +7,7 @@
 			<uuid>{759f9380-00a7-4388-8cec-d739f2235ee4}</uuid>
 			<locked>0</locked>
 			<mode>Single Run, Sweeps and Corners</mode>
-			<resultsname></resultsname>
+			<resultsname>/shared/projects/CSE493/team-h/KoggeStone_ALU/nor/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
 			<simresults></simresults>
 			<runlog></runlog>
 			<runlogfile></runlogfile>
