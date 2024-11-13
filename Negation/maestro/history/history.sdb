@@ -7,12 +7,12 @@
 			<uuid>{3d8a5f0d-4347-4f3e-b12e-ca460b1b61df}</uuid>
 			<locked>0</locked>
 			<mode>Single Run, Sweeps and Corners</mode>
-			<resultsname>/shared/projects/CSE493/team-h/project/Negation/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<resultsname>/shared/projects/CSE493/team-h/KoggeStone_ALU/Negation/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
-			<runlog>/shared/projects/CSE493/team-h/project/Negation/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlog>/shared/projects/CSE493/team-h/KoggeStone_ALU/Negation/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
-			<psfdir>/eng/home/jchen598/cse493_593/simulations/project/Negation/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
-			<simdir>$AXL_PROJECT_DIR/project/Negation/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+			<psfdir></psfdir>
+			<simdir></simdir>
 		</historyentry>
 	</history>
 </setupdb>

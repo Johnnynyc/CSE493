@@ -13,8 +13,8 @@
 			<simresults>./project/4b_SLL/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
 			<runlog>/eng/home/jiehanke/cse493_593/project/4b_SLL/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
 			<runlogfile>./project/4b_SLL/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
-			<psfdir>/eng/home/jiehanke/cse493_593/simulations/project/4b_SLL/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
-			<simdir>~/cse493_593/simulations/project/4b_SLL/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+			<psfdir></psfdir>
+			<simdir></simdir>
 		</historyentry>
 	</history>
 </setupdb>
