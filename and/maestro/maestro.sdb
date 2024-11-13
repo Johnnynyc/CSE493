@@ -8,23 +8,23 @@
 		<sharedvarinfo></sharedvarinfo>
 		<overwritehistory>0</overwritehistory>
 		<tests>
-			<test>Project_AND_1
+			<test>CSE493_and_1
 				<tool>ADE</tool>
 				<tooloptions>
 					<option>cell
 						<value>and</value>
 					</option>
 					<option>lib
-						<value>Project</value>
+						<value>CSE493</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR</value>
 					</option>
 					<option>sim
 						<value>spectre</value>
 					</option>
 					<option>view
 						<value>schematic</value>
-					</option>
-					<option>path
-						<value>$AXL_SETUPDB_DIR</value>
 					</option>
 					<option>state
 						<value>active</value>
@@ -41,7 +41,6 @@
 						<evalType>point</evalType>
 					</output>
 				</outputs>
-				<origoptions></origoptions>
 			</test>
 		</tests>
 		<extensions>
@@ -53,7 +52,7 @@
 		</extensions>
 		<currentmode>Single Run, Sweeps and Corners</currentmode>
 		<checksasserts netlist="0">
-			<test netlist="0" netlistscope="all">Project_AND_1</test>
+			<test netlist="0" netlistscope="all">CSE493_and_1</test>
 		</checksasserts>
 		<plottingoptions>
 			<plottingoption>waveformtemplate
@@ -86,14 +85,6 @@
 				<value>(None)</value>
 			</exploreroption>
 		</exploreroptions>
-		<resultsviews>
-			<resultsview>outputSetup</resultsview>
-		</resultsviews>
-		<useresultsviewfilters>
-			<useresultsviewfilter>outputSetup
-				<value></value>
-			</useresultsviewfilter>
-		</useresultsviewfilters>
 		<incrementalsimsetup>
 			<useincremental>0</useincremental>
 			<reusenetlist>0</reusenetlist>
@@ -102,5 +93,6 @@
 		</incrementalsimsetup>
 		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
 	</active>
-	<history>History</history>
+	<history>History
+	</history>
 </setupdb>
